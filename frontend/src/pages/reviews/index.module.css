@@ -1,0 +1,64 @@
+.mnc {
+  width: 100%;
+  /* height: 80vh; */
+  background-color: white;
+}
+
+.con {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+.left {
+  width: 20%;
+  height: 100%;
+  text-align: end;
+  border-right: 1px solid #dddddd;
+  padding-right: 10px;
+}
+.str {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.str__st {
+  margin: 10px 0;
+}
+.right {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 10px;
+}
+p {
+  font-size: 10px;
+  margin: 0;
+}
+h6 {
+  font-size: 14px;
+  margin-top: 10px;
+  color: blue;
+  cursor: pointer;
+  text-decoration: 1px solid black;
+}
+button {
+  border: none;
+  margin-bottom: 5px;
+}
+
+.reply {
+  margin: 3px 0;
+}
+.reply > input {
+  margin-right: 10px;
+}
+
+.no__reviews {
+  color: red;
+}
